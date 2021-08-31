@@ -4,7 +4,7 @@ It's a small example, how to authenticate users. It's working with jwt and nuxt/
 For the signup-part there are some password rules integrated.
 
 ## Project Specifications
-- Authenticate users with jwt and nuxt/auth
+- Authenticate users with jwt and nuxt/auth (local strategy)
 - Password rules (1 uppercase letter, 1 lowercase letter, 1 number)
 
 
