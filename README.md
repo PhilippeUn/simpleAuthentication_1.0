@@ -8,6 +8,7 @@ For the signup-part there are some password rules integrated.
 ## Project Specifications
 - Authenticate users with jwt and nuxt/auth (local strategy)
 - Password rules (1 uppercase letter, 1 lowercase letter, 1 number)
+- Only unique email and username
 
 
 ## Installation
