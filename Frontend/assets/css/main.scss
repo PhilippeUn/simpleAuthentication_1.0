@@ -1,0 +1,41 @@
+$primary: #0b1823;
+$secondary: #414649;
+$accent: #316cff;
+$boxShadow: 0px 7px 25px rgba(8, 23, 44, 0.1);
+$borderRadius: 18px;
+$smallBorderRadius: 8px;
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+i {
+  font-family: 'Font Awesome 5 Free';
+}
+
+.btn__accent {
+  background-color: $accent;
+  color: white;
+  border-radius: $smallBorderRadius;
+  padding: 12px 35px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: $boxShadow;
+  font-weight: 400;
+}
