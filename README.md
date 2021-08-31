@@ -23,3 +23,4 @@ In the backend you have to update the .env-file with your own mongodb data
 - Forgot Password
 - Verify mail
 - Authorization (User, Moderator, Admin)
+- reCaptcha
