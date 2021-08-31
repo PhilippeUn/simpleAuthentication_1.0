@@ -22,4 +22,4 @@ In the backend you have to update the .env-file with your own mongodb data
 ## Following functions are planned
 - Forgot Password
 - Verify mail
-- Auhorization (User, Moderator, Admin)
+- Authorization (User, Moderator, Admin)
