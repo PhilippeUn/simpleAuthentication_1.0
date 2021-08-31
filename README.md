@@ -12,8 +12,8 @@ For the signup-part are some password rules integrated.
 
 
 ## Installation
-Clone the repository and run following commands in the terminal:
-- `npm run install` (backend and frontend)
+Clone the repository and run following commands:
+- `npm install` (backend and frontend)
 - `nodemon app`(Backend - Port 4000)
 - `PORT=9000 npm run dev` (Frontend - Port 9000)
 <br/>
