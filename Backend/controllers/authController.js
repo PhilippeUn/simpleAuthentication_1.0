@@ -78,7 +78,7 @@ exports.login = async (req, res) => {
         }
 
         if (user && validPassword) {
-        const payload = { id: user._id, role: user.role, isVerified: user.isVerified }
+        const payload = { id: user._id }
         const accessToken = jwt.sign(payload, process.env.TOKEN_SECRET)
             await User.findByIdAndUpdate(user._id, { accessToken })
             return res.status(200).header('Auth-Token', accessToken).json({
